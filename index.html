@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number System Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-animation"></div>
+
+  <div class="workspace">
+
+    <h1 class="title">Number System Converter</h1>
+
+    <div class="converter-container">
+
+      <div class="container">
+        <label for="value">Value:</label>
+        <textarea id="value" placeholder="Enter values (one per line)"></textarea>
+
+        <label for="convert-from" >Convert From:</label>
+        <select id="convert-from" class="Convert-options">
+          <option value="decimal" class="Convert-options">Decimal</option>
+          <option value="binary">Binary</option>
+          <option value="excess-3">Excess-3 Code</option>
+          <option value="gray">Gray Code</option>
+          <option value="octal">Octal</option>
+          <option value="hexadecimal">Hexadecimal</option>
+        </select>
+
+        <label for="convert-to">Convert To:</label>
+        <select id="convert-to">
+          <option value="decimal">Decimal</option>
+          <option value="binary">Binary</option>
+          <option value="excess-3">Excess-3 Code</option>
+          <option value="gray">Gray Code</option>
+          <option value="octal">Octal</option>
+          <option value="hexadecimal">Hexadecimal</option>
+        </select>
+
+        <button id="convert-btn">Convert</button>
+        <button id="erase-btn">Erase</button>
+
+      </div>
+
+      <div class="result-container">
+        <div class="result-box">
+          <p class="result-title">Result:</p>
+          <div id="result" class="result-value"></div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
