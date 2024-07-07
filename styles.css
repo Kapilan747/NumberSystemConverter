@@ -51,6 +51,13 @@ body {
     text-align: center;
 }
 
+#convert-from{
+    width: 100%;
+}
+
+#convert-to{
+    width: 100%;
+}
 
 .result-title {
     font-weight: bold;
