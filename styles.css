@@ -11,7 +11,7 @@ body {
 
 .workspace {
     position: relative;
-    width: 80%;
+    width: 60%;
     max-width: 500px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -19,6 +19,14 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #000000;
+}
+
+#convert-from{
+    width: 100%;
+}
+
+#convert-to{
+    width: 100%;
 }
 
 .container label,
@@ -33,6 +41,11 @@ body {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     color: #000000;
+}
+
+.button-container{
+    display: flex;
+    gap:10px;
 }
 
 .container button {
@@ -51,13 +64,6 @@ body {
     text-align: center;
 }
 
-#convert-from{
-    width: 100%;
-}
-
-#convert-to{
-    width: 100%;
-}
 
 .result-title {
     font-weight: bold;
@@ -80,6 +86,7 @@ body {
     background-size: 200% 100%;
     animation: gradientAnimation 10s linear infinite;
 }
+
 
 @keyframes gradientAnimation {
     0% {
